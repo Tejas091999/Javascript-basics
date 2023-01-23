@@ -1,0 +1,42 @@
+var average, marks_maths, marks_science, marks_social, name, roll_no, subjects;
+console.log("Welcome To Results");
+name = prompt("What is your name: ");
+roll_no = Number.parseInt(prompt("What is your roll no: "));
+subjects = ["Maths", "Science", "Social Science"];
+marks_maths = Number.parseInt(prompt("enter your marks: "));
+marks_science = Number.parseInt(prompt("enter your marks: "));
+marks_social = Number.parseInt(propmt("enter your marks: "));
+
+if (subjects === "Maths") {
+  if (marks_maths < 50) {
+    console.log("You need to study hard");
+  } else {
+    console.log("You're good to goo! ");
+  }
+} else {
+  if (subjects === "Science") {
+    if (marks_science < 50) {
+      console.log("You need to sttudy more hard");
+    } else {
+      console.log("You are going good!! ");
+    }
+  } else {
+    if (subjects === "Social Science") {
+      if (marks_social < 50) {
+        console.log("This is also difficult subject");
+      } else {
+        console.log("You are great!!");
+      }
+    } else {
+      if (marks_maths > 50 && marks_science && marks_social > 50) {
+        average = (marks_social + marks_maths + marks_science) / 3;
+
+        if (average > 45) {
+          console.log("You're passed!!");
+        } else {
+          console.log("You have to really work hard.");
+        }
+      }
+    }
+  }
+}
