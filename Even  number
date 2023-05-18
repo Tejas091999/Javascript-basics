@@ -1,7 +1,7 @@
 console.log("Welcome to even number calculator")
 let num=prompt("What is the number: ")
 if (num%2==0) {
-    console.log("It is a even number")
+    console.log("It is a even number")     
 }
 else {
     console.log("It is odd number.")
