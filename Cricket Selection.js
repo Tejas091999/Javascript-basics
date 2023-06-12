@@ -14,7 +14,7 @@ class Cricket{
         console.log("You can play the season")
         let num_matches = prompt("How many matches have you played: ")
         let num_runs = prompt("How many runs have you scored: ")
-        this.s_rate = num_runs/num_matches
+        this.s_rate = num_runs/num_matches  
         console.log("Your strike rate is " , this.s_rate)
         if ( this.s_rate > 50) {
             console.log("You're selected")
