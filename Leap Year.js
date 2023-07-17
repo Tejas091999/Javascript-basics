@@ -10,6 +10,6 @@ function isLeapYear(year) {
     }
 }
 
-console.log(isLeapYear(2000)); // true
+console.log(isLeapYear(2000)); // true    
 console.log(isLeapYear(1900)); // false
 console.log(isLeapYear(2024)); // true
