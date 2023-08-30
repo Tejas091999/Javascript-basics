@@ -9,7 +9,7 @@ if (question1 = "India") {
     if (question2 = "Delhi") {
         console.log("You're correct..")
         console.log("Thank you")
-    }else {
+    }else { 
         console.log("You're really close.Please try again.")
     }
 }else {
