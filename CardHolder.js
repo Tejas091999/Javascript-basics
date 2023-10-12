@@ -7,7 +7,7 @@ class CardHolder {
         this.balance = balance;
     }
 
-    //Getter method
+    //Getter method  
     getCardNum() {
         return this.cardNum;
     }
